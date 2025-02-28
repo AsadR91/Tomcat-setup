@@ -43,7 +43,7 @@ Edit /opt/apache-tomcat-9.0.65/webapps/manager/META-INF/context.xml:
 
 bash
 sudo vi /opt/apache-tomcat-9.0.65/webapps/manager/META-INF/context.xml
-Comment out the RemoteAddrValve to allow access from any address.
+Comment out the RemoteAddrValve to allow access from any address:
 
 xml
 <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
@@ -54,7 +54,7 @@ Edit /opt/apache-tomcat-9.0.65/webapps/host-manager/META-INF/context.xml:
 
 bash
 sudo vi /opt/apache-tomcat-9.0.65/webapps/host-manager/META-INF/context.xml
-Comment out the RemoteAddrValve to allow access from any address.
+Comment out the RemoteAddrValve to allow access from any address:
 
 xml
 <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
